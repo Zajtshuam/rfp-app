@@ -1,4 +1,10 @@
+.stylesheet{
+  color: blue;
+  margin-top: -20px;
+  margin-left: 36%;
+  font-size: 100%;
 
+}
   
 
 body {
@@ -11,6 +17,7 @@ body {
   background-repeat: no-repeat;
   background-color: black;
   transition: 5s;
+ 
 
 
 animation-name:animate;
