@@ -1,28 +1,25 @@
-import React from 'react'
-import "./css/Datetime.css"
+// import './css/app.css';
+
+// import React, {Fragment, useReducer, useState} from 'react';
+// import {Button, Col, Row, Modal} from 'react-bootstrap';npm
 
 
-var datetime = ()=>
-{
-    var showdate=new Date();
-    var displaytodaysdate=showdate.getDate()+'/'+(showdate.getMonth()+1)+'/'+showdate.getFullYear();
-    var dt=showdate.toDateString();
-    var displaytime=showdate.getHours()+':'+showdate.getMinutes()
-    const myStyle = {
-        color: "white",
-        fontFamily: "Arial",
-        position: 'absolute', left: '43%', bottom: '95%'
-        
-        
-    }
-    return(
-        <div style = {myStyle}>
-            <center>
-                
-            {dt} - {displaytime}
-            </center>
-        </div>
-    );
-}
+// const NewGreeting = props => {
+  
+//       return (
+//       <div className="full-page">
+//         <Modal.Dialog>
+//           <Modal.Body>
+//            <p> Modal Content Here </p>
 
-export default datetime;
+//            <div className='trial text-center'>
+//              <a href="https://google.com">test</a>
+//            </div>
+
+//           </Modal.Body>
+//         </Modal.Dialog>
+//       </div>
+//       );
+// };
+
+// export default NewGreeting;
